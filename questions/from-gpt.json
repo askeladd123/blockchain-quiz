@@ -1,0 +1,723 @@
+[
+  {
+    "question": "Which of the following are core properties of a cryptographic hash function?",
+    "options": [
+      { "answer": "Collision-resistance", "is_correct": true },
+      { "answer": "Hiding", "is_correct": true },
+      { "answer": "Puzzle-friendliness", "is_correct": true },
+      { "answer": "Deterministic randomness", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In Bitcoin, what data structure allows efficient membership proofs of transactions in a block?",
+    "options": [
+      { "answer": "Hash pointer list", "is_correct": false },
+      { "answer": "Merkle tree", "is_correct": true },
+      { "answer": "Binary search tree", "is_correct": false },
+      { "answer": "Bloom filter", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Digital signatures provide which of the following guarantees?",
+    "options": [
+      { "answer": "Unforgeability", "is_correct": true },
+      { "answer": "Confidentiality", "is_correct": false },
+      { "answer": "Integrity", "is_correct": true },
+      { "answer": "Non-repudiation", "is_correct": true }
+    ]
+  },
+  {
+    "question": "GoofyCoin fails primarily because it does not prevent which problem?",
+    "options": [
+      { "answer": "51 % attack", "is_correct": false },
+      { "answer": "Double-spending", "is_correct": true },
+      { "answer": "Sybil attack", "is_correct": false },
+      { "answer": "Replay attack", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which two folders are created when you run “truffle init” in a new project?",
+    "options": [
+      { "answer": "contracts/", "is_correct": true },
+      { "answer": "migrations/", "is_correct": true },
+      { "answer": "build/", "is_correct": false },
+      { "answer": "ganache/", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In Bitcoin’s consensus, nodes show acceptance of a block by:",
+    "options": [
+      { "answer": "Signing the block header", "is_correct": false },
+      { "answer": "Building on top of the block", "is_correct": true },
+      { "answer": "Broadcasting an ACK message", "is_correct": false },
+      { "answer": "Adding it to their mempool", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Select all TRUE statements about the UTXO model.",
+    "options": [
+      { "answer": "Each output can be spent exactly once", "is_correct": true },
+      { "answer": "Balances are stored per address", "is_correct": false },
+      { "answer": "Verifying a payment requires tracing outputs back to their creation", "is_correct": true },
+      { "answer": "Inputs reference previous transaction outputs", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Which opcode appears in a standard Pay-to-PubKey-Hash (P2PKH) scriptPubKey?",
+    "options": [
+      { "answer": "OP_DUP", "is_correct": true },
+      { "answer": "OP_EQUALVERIFY", "is_correct": true },
+      { "answer": "OP_CHECKMULTISIG", "is_correct": false },
+      { "answer": "OP_RETURN", "is_correct": false }
+    ]
+  },
+  {
+    "question": "The JSON-RPC method “getblockchaininfo” returns which of the following fields?",
+    "options": [
+      { "answer": "blocks", "is_correct": true },
+      { "answer": "difficulty", "is_correct": true },
+      { "answer": "bestblockhash", "is_correct": true },
+      { "answer": "walletversion", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Hot storage wallets are characterized by:",
+    "options": [
+      { "answer": "Being connected to the Internet", "is_correct": true },
+      { "answer": "Higher convenience", "is_correct": true },
+      { "answer": "Greater security than cold storage", "is_correct": false },
+      { "answer": "Better protection against malware", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Difficulty in Bitcoin is adjusted every ____ blocks.",
+    "options": [
+      { "answer": "2016", "is_correct": true },
+      { "answer": "144", "is_correct": false },
+      { "answer": "1", "is_correct": false },
+      { "answer": "100 000", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which hardware platforms have been used for Bitcoin mining? Select all that apply.",
+    "options": [
+      { "answer": "CPU", "is_correct": true },
+      { "answer": "GPU", "is_correct": true },
+      { "answer": "FPGA", "is_correct": true },
+      { "answer": "ASIC", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Block withholding (selfish mining) seeks to:",
+    "options": [
+      { "answer": "Increase transaction throughput", "is_correct": false },
+      { "answer": "Gain a revenue edge over honest miners", "is_correct": true },
+      { "answer": "Censor particular transactions", "is_correct": false },
+      { "answer": "Reduce power consumption", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which techniques can an adversary use to deanonymize Bitcoin users?",
+    "options": [
+      { "answer": "Input linking", "is_correct": true },
+      { "answer": "Change-address heuristics", "is_correct": true },
+      { "answer": "Network-layer tracing", "is_correct": true },
+      { "answer": "SHA-256 brute forcing", "is_correct": false }
+    ]
+  },
+  {
+    "question": "CoinJoin improves privacy primarily by:",
+    "options": [
+      { "answer": "Encrypting transaction data on-chain", "is_correct": false },
+      { "answer": "Mixing multiple users’ inputs and outputs", "is_correct": true },
+      { "answer": "Hiding amounts with confidential transactions", "is_correct": false },
+      { "answer": "Utilizing zero-knowledge proofs", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Zerocash adds which privacy enhancements over Zerocoin?",
+    "options": [
+      { "answer": "Hidden transaction amounts", "is_correct": true },
+      { "answer": "No trusted setup phase", "is_correct": false },
+      { "answer": "Aggregated proofs for entire blocks", "is_correct": false },
+      { "answer": "Default privacy for all transfers", "is_correct": true }
+    ]
+  },
+  {
+    "question": "A memory-hard proof-of-work aims to be expensive mainly in terms of:",
+    "options": [
+      { "answer": "CPU cycles", "is_correct": false },
+      { "answer": "I/O operations", "is_correct": false },
+      { "answer": "Memory usage", "is_correct": true },
+      { "answer": "Network bandwidth", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Primecoin’s proof-of-useful-work involves finding:",
+    "options": [
+      { "answer": "Large Cunningham chains of primes", "is_correct": true },
+      { "answer": "Random quadratic residues", "is_correct": false },
+      { "answer": "Perfect hash collisions", "is_correct": false },
+      { "answer": "Elliptic-curve isogenies", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Proof-of-Stake systems claim which advantages over Proof-of-Work?",
+    "options": [
+      { "answer": "Lower energy consumption", "is_correct": true },
+      { "answer": "No incentive alignment issues", "is_correct": false },
+      { "answer": "Resistance to 51 % attacks", "is_correct": false },
+      { "answer": "Hardware neutrality", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Merge mining allows miners to:",
+    "options": [
+      { "answer": "Secure two blockchains with the same work", "is_correct": true },
+      { "answer": "Double their block reward on Bitcoin", "is_correct": false },
+      { "answer": "Increase decentralization of pools", "is_correct": false },
+      { "answer": "Avoid validating altcoin blocks", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Atomic cross-chain swaps rely on which script feature?",
+    "options": [
+      { "answer": "Hash Time-Locked Contracts (HTLCs)", "is_correct": true },
+      { "answer": "OP_RETURN metadata", "is_correct": false },
+      { "answer": "OP_CHECKLOCKTIMEVERIFY", "is_correct": true },
+      { "answer": "Taproot key paths", "is_correct": false }
+    ]
+  },
+  {
+    "question": "The Lightning Network reduces on-chain load by:",
+    "options": [
+      { "answer": "Aggregating micropayments in off-chain channels", "is_correct": true },
+      { "answer": "Increasing block size limits", "is_correct": false },
+      { "answer": "Replacing PoW with PoS", "is_correct": false },
+      { "answer": "Using Schnorr signatures", "is_correct": false }
+    ]
+  },
+  {
+    "question": "A channel closure in Lightning requires:",
+    "options": [
+      { "answer": "A cooperative settlement transaction", "is_correct": true },
+      { "answer": "A timelocked refund path", "is_correct": true },
+      { "answer": "A taproot annex", "is_correct": false },
+      { "answer": "Both parties to reveal their private keys", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which are common fields of a Bitcoin block header?",
+    "options": [
+      { "answer": "Version", "is_correct": true },
+      { "answer": "Previous block hash", "is_correct": true },
+      { "answer": "Merkle root", "is_correct": true },
+      { "answer": "Gas limit", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Select the steps of a standard Bitcoin mining cycle.",
+    "options": [
+      { "answer": "Collect transactions from mempool", "is_correct": true },
+      { "answer": "Compute hash puzzles until below target", "is_correct": true },
+      { "answer": "Sign block with private key", "is_correct": false },
+      { "answer": "Broadcast new block to peers", "is_correct": true }
+    ]
+  },
+  {
+    "question": "In Base58 encoding, which characters are intentionally omitted to avoid confusion?",
+    "options": [
+      { "answer": "0 (zero)", "is_correct": true },
+      { "answer": "O (capital o)", "is_correct": true },
+      { "answer": "l (lowercase L)", "is_correct": true },
+      { "answer": "I (capital i)", "is_correct": true }
+    ]
+  },
+  {
+    "question": "HD wallets (BIP-32) allow which capability?",
+    "options": [
+      { "answer": "Deriving many public keys from a single extended public key", "is_correct": true },
+      { "answer": "Restoring all funds from one seed phrase", "is_correct": true },
+      { "answer": "Increasing block size dynamically", "is_correct": false },
+      { "answer": "Cold-signing transactions without revealing private keys", "is_correct": false }
+    ]
+  },
+  {
+    "question": "The field “lock_time” in a Bitcoin transaction enables:",
+    "options": [
+      { "answer": "Timelocked refunds", "is_correct": true },
+      { "answer": "Coinbase maturity enforcement", "is_correct": false },
+      { "answer": "Delayed signature verification", "is_correct": false },
+      { "answer": "Relative timelocks via sequence numbers", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which RPC command retrieves the raw, hex-encoded bytes of a transaction?",
+    "options": [
+      { "answer": "getblock", "is_correct": false },
+      { "answer": "getrawtransaction", "is_correct": true },
+      { "answer": "decoderawtransaction", "is_correct": false },
+      { "answer": "getmempoolentry", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Using Docker with bitcoin-cli is advantageous mainly because:",
+    "options": [
+      { "answer": "No need to compile Bitcoin Core locally", "is_correct": true },
+      { "answer": "Isolates dependencies", "is_correct": true },
+      { "answer": "Provides GPU acceleration for mining", "is_correct": false },
+      { "answer": "Automatically forwards RPC credentials", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Ethereum’s gas mechanism serves to:",
+    "options": [
+      { "answer": "Prevent infinite loops in smart contracts", "is_correct": true },
+      { "answer": "Pay miners for computation and storage", "is_correct": true },
+      { "answer": "Determine transaction nonce", "is_correct": false },
+      { "answer": "Set block difficulty", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In the provided Voting.sol, which statement enforces owner-only access?",
+    "options": [
+      { "answer": "require(msg.sender == owner, …)", "is_correct": true },
+      { "answer": "immutable owner declaration", "is_correct": false },
+      { "answer": "public visibility of variables", "is_correct": false },
+      { "answer": "constructor initialization", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Truffle migration scripts are stored in:",
+    "options": [
+      { "answer": "contracts/", "is_correct": false },
+      { "answer": "migrations/", "is_correct": true },
+      { "answer": "scripts/", "is_correct": false },
+      { "answer": "truffle-config.js", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Ganache provides which feature for local development?",
+    "options": [
+      { "answer": "Deterministic set of prepaid accounts", "is_correct": true },
+      { "answer": "Real-time block mining every 10 minutes", "is_correct": false },
+      { "answer": "ETH faucet via HTTP", "is_correct": false },
+      { "answer": "Private key export for each account", "is_correct": true }
+    ]
+  },
+  {
+    "question": "MetaMask can connect to a local chain by specifying:",
+    "options": [
+      { "answer": "Custom RPC URL", "is_correct": true },
+      { "answer": "Chain ID", "is_correct": true },
+      { "answer": "Block gas limit", "is_correct": false },
+      { "answer": "EIP-1559 fee algorithm", "is_correct": false }
+    ]
+  },
+  {
+    "question": "A soft fork in Bitcoin is characterized by:",
+    "options": [
+      { "answer": "Tighter validation rules", "is_correct": true },
+      { "answer": "Backward compatibility with old nodes", "is_correct": true },
+      { "answer": "Mandatory client upgrade to stay on main chain", "is_correct": false },
+      { "answer": "Chain split if minority rejects change", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which upgrade was a soft fork?",
+    "options": [
+      { "answer": "Pay-to-Script-Hash (P2SH)", "is_correct": true },
+      { "answer": "SegWit", "is_correct": true },
+      { "answer": "Block size increase to 8 MB", "is_correct": false },
+      { "answer": "Taproot", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Which concept best mitigates Sybil attacks in Bitcoin?",
+    "options": [
+      { "answer": "Proof-of-Work difficulty", "is_correct": true },
+      { "answer": "Whitelisted node IPs", "is_correct": false },
+      { "answer": "KYC for miners", "is_correct": false },
+      { "answer": "Proof-of-Stake weight", "is_correct": false }
+    ]
+  },
+  {
+    "question": "SPV (Simplified Payment Verification) clients store:",
+    "options": [
+      { "answer": "Only block headers", "is_correct": true },
+      { "answer": "Full transaction bodies", "is_correct": false },
+      { "answer": "UTXO set", "is_correct": false },
+      { "answer": "Private keys for addresses they control", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Transaction fee priority depends on which factors?",
+    "options": [
+      { "answer": "Input age", "is_correct": true },
+      { "answer": "Input value", "is_correct": true },
+      { "answer": "Transaction size", "is_correct": true },
+      { "answer": "Output script complexity", "is_correct": false }
+    ]
+  },
+  {
+    "question": "OP_RETURN outputs are commonly used for:",
+    "options": [
+      { "answer": "Storing arbitrary data on-chain", "is_correct": true },
+      { "answer": "Returning change to sender", "is_correct": false },
+      { "answer": "Distributing dividends", "is_correct": false },
+      { "answer": "Locking coins in escrow", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Commitments plus timestamping on Bitcoin can prove:",
+    "options": [
+      { "answer": "That a document existed before a given block time", "is_correct": true },
+      { "answer": "Who authored the document", "is_correct": false },
+      { "answer": "The content of a document without revealing it", "is_correct": true },
+      { "answer": "The legal ownership of physical property", "is_correct": false }
+    ]
+  },
+  {
+    "question": "A 51 % attacker cannot do which of the following?",
+    "options": [
+      { "answer": "Create coins from nothing", "is_correct": true },
+      { "answer": "Reverse their own transactions", "is_correct": false },
+      { "answer": "Censor new transactions temporarily", "is_correct": false },
+      { "answer": "Double-spend confirmed coins", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Feather-forking is an attack that:",
+    "options": [
+      { "answer": "Adds covert inflation", "is_correct": false },
+      { "answer": "Threatens to orphan blocks containing blacklisted transactions", "is_correct": true },
+      { "answer": "Requires > 50 % hash power", "is_correct": false },
+      { "answer": "Creates rogue sidechains", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Bitcoin addresses encoded with Bech32 start with:",
+    "options": [
+      { "answer": "bc1", "is_correct": true },
+      { "answer": "1", "is_correct": false },
+      { "answer": "3", "is_correct": false },
+      { "answer": "tb1", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Which techniques are used in centralized mixing services?",
+    "options": [
+      { "answer": "Pooling many inputs and redistributing outputs", "is_correct": true },
+      { "answer": "Zero-knowledge proofs", "is_correct": false },
+      { "answer": "Time delays between deposit and withdrawal", "is_correct": true },
+      { "answer": "Public auditing of reserves", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Zero-Knowledge Proofs allow a prover to:",
+    "options": [
+      { "answer": "Convince a verifier that a statement is true", "is_correct": true },
+      { "answer": "Reveal secret information", "is_correct": false },
+      { "answer": "Maintain provable discretion over the witness", "is_correct": true },
+      { "answer": "Guarantee absolute anonymity in all contexts", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Cuckoo Cycle’s PoW is ASIC-resistant because it requires:",
+    "options": [
+      { "answer": "Large random graph memory access", "is_correct": true },
+      { "answer": "Energy-intensive hash functions", "is_correct": false },
+      { "answer": "Floating-point arithmetic", "is_correct": false },
+      { "answer": "TPM secure elements", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Bitcoin Core nodes typically run on which default port?",
+    "options": [
+      { "answer": "8333", "is_correct": true },
+      { "answer": "18333", "is_correct": false },
+      { "answer": "30303", "is_correct": false },
+      { "answer": "8545", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In the Bitcoin network, latency and partitioning issues are mitigated by:",
+    "options": [
+      { "answer": "Gossip-based relaying", "is_correct": true },
+      { "answer": "Flat P2P topology", "is_correct": true },
+      { "answer": "Strict super-node hierarchy", "is_correct": false },
+      { "answer": "Exclusive TLS channels", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which field in a coinbase transaction encodes extra-nonce data miners can vary?",
+    "options": [
+      { "answer": "scriptSig", "is_correct": true },
+      { "answer": "lock_time", "is_correct": false },
+      { "answer": "version", "is_correct": false },
+      { "answer": "sequence", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Nonoutsourceable puzzles aim to discourage:",
+    "options": [
+      { "answer": "Mining pools", "is_correct": true },
+      { "answer": "ASIC manufacturing", "is_correct": false },
+      { "answer": "Proof-of-Stake systems", "is_correct": false },
+      { "answer": "GPU mining", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Choose all true statements about Litecoin.",
+    "options": [
+      { "answer": "Uses scrypt PoW", "is_correct": true },
+      { "answer": "Has 2.5-minute block times", "is_correct": true },
+      { "answer": "Implements merge mining with Bitcoin", "is_correct": false },
+      { "answer": "Was the first coin to activate SegWit", "is_correct": true }
+    ]
+  },
+  {
+    "question": "A sidechain peg generally requires:",
+    "options": [
+      { "answer": "Locking coins on the main chain", "is_correct": true },
+      { "answer": "Waiting for a confirmation period", "is_correct": true },
+      { "answer": "SPV proofs on the sidechain", "is_correct": true },
+      { "answer": "KYC verification of users", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Select all advantages of transparent proof-of-reserves for exchanges.",
+    "options": [
+      { "answer": "User confidence in solvency", "is_correct": true },
+      { "answer": "Lower regulatory burden automatically", "is_correct": false },
+      { "answer": "Early detection of fractional reserve practices", "is_correct": true },
+      { "answer": "Increased privacy for exchange wallets", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following can be directly represented using colored coins?",
+    "options": [
+      { "answer": "Company shares", "is_correct": true },
+      { "answer": "Event tickets", "is_correct": true },
+      { "answer": "Domain names", "is_correct": true },
+      { "answer": "Physical gold bars", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Hash Time-Locked Contracts combine which primitives?",
+    "options": [
+      { "answer": "Pre-image hash locks", "is_correct": true },
+      { "answer": "Absolute or relative timelocks", "is_correct": true },
+      { "answer": "Ring signatures", "is_correct": false },
+      { "answer": "Elliptic-curve Diffie-Hellman", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In Bitcoin Script, OP_CHECKLOCKTIMEVERIFY allows:",
+    "options": [
+      { "answer": "Spending an output only after a specific time or block height", "is_correct": true },
+      { "answer": "Dynamic adjustment of mining difficulty", "is_correct": false },
+      { "answer": "Freezing UTXOs permanently", "is_correct": false },
+      { "answer": "Replacing lock_time field functionality", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which RPC can be used to decode a raw transaction hex string into JSON?",
+    "options": [
+      { "answer": "decoderawtransaction", "is_correct": true },
+      { "answer": "decodescript", "is_correct": false },
+      { "answer": "gettransaction", "is_correct": false },
+      { "answer": "verifyrawtransaction", "is_correct": false }
+    ]
+  },
+  {
+    "question": "A Bitcoin full node typically needs to download which of the following to verify the chain from genesis?",
+    "options": [
+      { "answer": "Every block header", "is_correct": true },
+      { "answer": "Every transaction body", "is_correct": true },
+      { "answer": "All historical UTXO sets at once", "is_correct": false },
+      { "answer": "Mempool of unconfirmed transactions", "is_correct": false }
+    ]
+  },
+  {
+    "question": "The FLP impossibility result shows that consensus is impossible in an asynchronous network when how many nodes may fail?",
+    "options": [
+      { "answer": "At least one", "is_correct": true },
+      { "answer": "More than one-third", "is_correct": false },
+      { "answer": "A majority", "is_correct": false },
+      { "answer": "Zero", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which statements about Schnorr signatures in Bitcoin are correct?",
+    "options": [
+      { "answer": "They allow key aggregation for multisig", "is_correct": true },
+      { "answer": "They were activated with Taproot", "is_correct": true },
+      { "answer": "They require a hard fork to verify", "is_correct": false },
+      { "answer": "They improve signature malleability", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Select all elements found in a Merkle proof.",
+    "options": [
+      { "answer": "Sibling hashes", "is_correct": true },
+      { "answer": "Transaction index", "is_correct": true },
+      { "answer": "Merkle root", "is_correct": true },
+      { "answer": "Nonce", "is_correct": false }
+    ]
+  },
+  {
+    "question": "An SPV client verifying a payment must additionally trust that:",
+    "options": [
+      { "answer": "The majority of hash power is honest", "is_correct": true },
+      { "answer": "The peer gave them valid block headers", "is_correct": true },
+      { "answer": "No re-org longer than six blocks will occur", "is_correct": true },
+      { "answer": "Their wallet seed is unique", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which data are included in a Lightning commitment transaction?",
+    "options": [
+      { "answer": "Both parties’ current balances", "is_correct": true },
+      { "answer": "HTLC outputs for pending payments", "is_correct": true },
+      { "answer": "Hashed revocation secret", "is_correct": true },
+      { "answer": "Sequence numbers for absolute timelocks", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of these is NOT a primary motivation for ASIC-resistant PoW algorithms?",
+    "options": [
+      { "answer": "Encouraging miner decentralization", "is_correct": false },
+      { "answer": "Lowering energy usage dramatically", "is_correct": true },
+      { "answer": "Reducing hardware monopolies", "is_correct": false },
+      { "answer": "Keeping consumer-grade hardware competitive", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Brain wallets are insecure mainly because:",
+    "options": [
+      { "answer": "Users choose weak passphrases", "is_correct": true },
+      { "answer": "They store keys on exchange servers", "is_correct": false },
+      { "answer": "They rely on obsolete hash functions", "is_correct": false },
+      { "answer": "They require quantum-safe encryption", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Multisig escrow (2-of-3) uses which property to resolve disputes?",
+    "options": [
+      { "answer": "Third-party mediator’s signature", "is_correct": true },
+      { "answer": "Refund via timelock", "is_correct": false },
+      { "answer": "Zero-knowledge arbitration", "is_correct": false },
+      { "answer": "Atomic swap cancellation", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In Ethereum, the ‘nonce’ field of an account tracks:",
+    "options": [
+      { "answer": "Number of transactions sent", "is_correct": true },
+      { "answer": "Randomness for PoW", "is_correct": false },
+      { "answer": "Smart-contract storage index", "is_correct": false },
+      { "answer": "Position in Merkle Patricia Trie", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which conditions must be met for a transaction to enter Bitcoin Core’s default mempool?",
+    "options": [
+      { "answer": "Correctly signed", "is_correct": true },
+      { "answer": "Standard script policy", "is_correct": true },
+      { "answer": "Fee above mempool minimum", "is_correct": true },
+      { "answer": "Outputs below dust threshold", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which attack exploits transaction malleability?",
+    "options": [
+      { "answer": "Changing sig script to alter txid before confirmation", "is_correct": true },
+      { "answer": "Double-spending through race conditions", "is_correct": false },
+      { "answer": "Selfish mining", "is_correct": false },
+      { "answer": "Vector76 attack", "is_correct": false }
+    ]
+  },
+  {
+    "question": "A Bitcoin HTLC refund path typically becomes available after:",
+    "options": [
+      { "answer": "A fixed block height passes", "is_correct": true },
+      { "answer": "Both parties broadcast a revocation secret", "is_correct": false },
+      { "answer": "The other party signs a cooperative close", "is_correct": false },
+      { "answer": "Sequence locks expire", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Select statements that apply to Permacoin.",
+    "options": [
+      { "answer": "Miners prove storage of a data corpus", "is_correct": true },
+      { "answer": "Secures useful distributed storage", "is_correct": true },
+      { "answer": "Implements classical PoS", "is_correct": false },
+      { "answer": "Uses SHA-256 exclusively", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which mechanism makes it hard to deterministically censor specific Bitcoin transactions long-term?",
+    "options": [
+      { "answer": "Multiple independent miners", "is_correct": true },
+      { "answer": "Transaction fee market dynamics", "is_correct": true },
+      { "answer": "Difficulty retargeting", "is_correct": false },
+      { "answer": "Pay-to-Script-Hash flexibility", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Ethereum smart contracts are written in which languages? Select all common choices.",
+    "options": [
+      { "answer": "Solidity", "is_correct": true },
+      { "answer": "Vyper", "is_correct": true },
+      { "answer": "Rust", "is_correct": false },
+      { "answer": "Java", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In Bitcoin, sequence numbers enable which relative timelock mechanism?",
+    "options": [
+      { "answer": "BIP-68", "is_correct": true },
+      { "answer": "CSV (OP_CHECKSEQUENCEVERIFY)", "is_correct": true },
+      { "answer": "CLTV (OP_CHECKLOCKTIMEVERIFY)", "is_correct": false },
+      { "answer": "Replace-by-Fee", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following correctly describes a Pay-to-Witness-Script-Hash (P2WSH) output?",
+    "options": [
+      { "answer": "SegWit version 0 witness program 0 <32-byte-hash>", "is_correct": true },
+      { "answer": "Stored in scriptPubKey as OP_HASH160 <20-byte-hash>", "is_correct": false },
+      { "answer": "Requires witness data to spend", "is_correct": true },
+      { "answer": "Always has exactly one public key in redeem script", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Taproot allows what improvements over previous script types?",
+    "options": [
+      { "answer": "Key path spending with a single Schnorr signature", "is_correct": true },
+      { "answer": "Smaller on-chain footprint for complex contracts", "is_correct": true },
+      { "answer": "Automatic Lightning channel refresh", "is_correct": false },
+      { "answer": "Privacy by hiding unused spend branches", "is_correct": true }
+    ]
+  },
+  {
+    "question": "When using Truffle console, the command “Voting.deployed()” returns:",
+    "options": [
+      { "answer": "A Promise for the contract instance", "is_correct": true },
+      { "answer": "The transaction hash of deployment", "is_correct": false },
+      { "answer": "Compilation bytecode", "is_correct": false },
+      { "answer": "Gas price for deployment", "is_correct": false }
+    ]
+  },
+  {
+    "question": "A transaction’s weight in Bitcoin indicates:",
+    "options": [
+      { "answer": "Combination of base and witness data size", "is_correct": true },
+      { "answer": "Priority for fee calculation", "is_correct": false },
+      { "answer": "Validation complexity", "is_correct": false },
+      { "answer": "Its position in the mempool", "is_correct": false }
+    ]
+  }
+]
+

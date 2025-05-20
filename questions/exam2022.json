@@ -1,0 +1,317 @@
+[
+  {
+    "question": "There are several ways in which new coins in an altcoin can be allocated to users. Which of these require changes to Bitcoin?",
+    "options": [
+      { "answer": "Bitcoin is used as a “reserve currency” for the altcoin — a unit of the altcoin can be created by putting 1 BTC into escrow; the bitcoin can be released by provably destroying one altcoin unit", "is_correct": true },
+      { "answer": "All coins in the altcoin are generated through (merge) mining and are allocated to miners", "is_correct": false },
+      { "answer": "Altcoin allocation is “grandfathered” from Bitcoin — every owner of bitcoins becomes the owner of a certain number of altcoins (in a fixed proportion of bitcoins to altcoins)", "is_correct": false },
+      { "answer": "A unit of the altcoin is created by provably destroying one bitcoin", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Unlinkability in Bitcoin could mean",
+    "options": [
+      { "answer": "It's hard to link different transactions having the same output address", "is_correct": false },
+      { "answer": "It's hard to link different addresses owned by the same user", "is_correct": true },
+      { "answer": "It's hard to link different transactions having the same input address", "is_correct": false },
+      { "answer": "It's hard to link different transactions made by the same user", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Which of these factors make distributed consensus hard?",
+    "options": [
+      { "answer": "Nodes may crash", "is_correct": true },
+      { "answer": "Encrypted messages may be intercepted and decrypted", "is_correct": false },
+      { "answer": "Nodes may be taken over by malware", "is_correct": true },
+      { "answer": "There is latency on the network", "is_correct": true }
+    ]
+  },
+  {
+    "question": "What is “zero knowledge” about a zero-knowledge proof?",
+    "options": [
+      { "answer": "It is a proof that you have no knowledge of something", "is_correct": false },
+      { "answer": "It takes no outside knowledge to verify the correctness of the proof", "is_correct": false },
+      { "answer": "It is a proof that doesn’t reveal any knowledge other than the statement’s truth", "is_correct": true },
+      { "answer": "It is a proof that requires no knowledge to create", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following statements are true about cold wallet storage?",
+    "options": [
+      { "answer": "Cold storage can store more bitcoins", "is_correct": false },
+      { "answer": "Cold storage tends to be more convenient", "is_correct": false },
+      { "answer": "Cold storage keys in a device without network access", "is_correct": true },
+      { "answer": "Hot storage wallets can generate arbitrarily many cold storage addresses without contacting the cold storage", "is_correct": true }
+    ]
+  },
+  {
+    "question": "In a typical transaction",
+    "options": [
+      { "answer": "Each input contains a signature", "is_correct": true },
+      { "answer": "Each output contains a signature", "is_correct": false },
+      { "answer": "There is one signature that covers all the inputs", "is_correct": false },
+      { "answer": "There is one signature that covers all the outputs", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In a vigilante attack against a mining pool, the attacker",
+    "options": [
+      { "answer": "discards both shares and blocks that he finds", "is_correct": false },
+      { "answer": "submits both shares and blocks that he finds", "is_correct": false },
+      { "answer": "discards shares while submitting blocks to a different mining pool", "is_correct": false },
+      { "answer": "submits shares but discards blocks", "is_correct": true }
+    ]
+  },
+  {
+    "question": "In which of these situations could secure timestamping be useful? (Assume there is no way to prove that you didn’t timestamp multiple values.)",
+    "options": [
+      { "answer": "Proving that you can predict the winner of the 2020 US presidential election", "is_correct": false },
+      { "answer": "Securely saving a document at a specific time", "is_correct": false },
+      { "answer": "Proving that you don't know something at a specific time", "is_correct": false },
+      { "answer": "Proving possession of a document at a specific time", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Alice is paying for a service using Bitcoin micropayments. If she disconnects without notifying Bob and stops sending micropayments, what can Bob do?",
+    "options": [
+      { "answer": "Bob can redeem the maximum amount that Alice initially escrowed into a multisig address", "is_correct": false },
+      { "answer": "Bob can refuse to sign the refund transaction, so both Alice and Bob will end up losing Bitcoins, which will sit in the multisig escrow forever", "is_correct": false },
+      { "answer": "Bob is out of luck. He doesn’t earn any Bitcoins and must pursue legal recourse", "is_correct": false },
+      { "answer": "Bob can redeem the latest micropayment transaction that Alice sent in the last time period before disconnecting, which matches the length of service she received", "is_correct": true }
+    ]
+  },
+  {
+    "question": "A 51 % attacker can potentially:",
+    "options": [
+      { "answer": "Change the block reward", "is_correct": false },
+      { "answer": "Steal coins from an existing address", "is_correct": false },
+      { "answer": "Suppress transactions from the block chain", "is_correct": true },
+      { "answer": "Make it unprofitable for other miners to mine", "is_correct": true }
+    ]
+  },
+  {
+    "question": "If two conflicting transactions A → B and A → C are both broadcast almost simultaneously, what determines which one will end up in the block chain?",
+    "options": [
+      { "answer": "Each node has its own version of the block chain containing the transaction that it heard about first", "is_correct": false },
+      { "answer": "The miner who finds the next block will likely resolve the tie by including one of the transactions in the block", "is_correct": true },
+      { "answer": "The transaction that reaches the majority of nodes first will win", "is_correct": false },
+      { "answer": "The transaction that was broadcast first will win", "is_correct": false }
+    ]
+  },
+  {
+    "question": "What is a Bitcoin wallet?",
+    "options": [
+      { "answer": "A piece of software that remembers an individual's Bitcoin addresses and keys", "is_correct": true },
+      { "answer": "A type of mining software", "is_correct": false },
+      { "answer": "An online exchange that people can go to in order to acquire bitcoins", "is_correct": false },
+      { "answer": "An address that contains a lot of unspent bitcoins", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following requires a hard fork?",
+    "options": [
+      { "answer": "A requirement that each transaction have its outputs sorted by value in ascending (or non-decreasing) order", "is_correct": false },
+      { "answer": "Increasing the maximum permitted size of blocks", "is_correct": true },
+      { "answer": "Adding a new OP_SHA3 script instruction", "is_correct": false },
+      { "answer": "Disabling the OP_SHA1 instruction", "is_correct": false },
+      { "answer": "Decreasing the maximum permitted size of blocks", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of these are risks of Bitcoin exchanges that are NOT risks of maintaining one’s own hot or cold wallet?",
+    "options": [
+      { "answer": "Ponzi schemes", "is_correct": true },
+      { "answer": "Key compromises or leaks", "is_correct": false },
+      { "answer": "Bank runs", "is_correct": true },
+      { "answer": "Double-spend attacks", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Mining pools...",
+    "options": [
+      { "answer": "typically make all their members search for blocks with the same coinbase address (the address that receives mining rewards)", "is_correct": true },
+      { "answer": "evenly divide up block rewards between all members of the pool", "is_correct": false },
+      { "answer": "can undermine the security of Bitcoin’s consensus algorithm, but this isn’t a problem in practice since the majority of miners aren’t part of pools", "is_correct": false },
+      { "answer": "let members earn more rewards, on average, than they would by mining alone", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Why is Bitcoin able to reach consensus in practice despite consensus being a difficult problem?",
+    "options": [
+      { "answer": "Consensus only has to be reached over long-time scales", "is_correct": true },
+      { "answer": "The order of blocks doesn’t matter for consensus", "is_correct": false },
+      { "answer": "Only small groups of nodes have to reach consensus rather than the network having to globally reach consensus", "is_correct": false },
+      { "answer": "Financial incentives cause participants to work together", "is_correct": true }
+    ]
+  },
+  {
+    "question": "What can a malicious node do?",
+    "options": [
+      { "answer": "Ignore a proposed valid block", "is_correct": false },
+      { "answer": "Create valid transactions originating from someone else’s address", "is_correct": false },
+      { "answer": "Prevent a valid transaction from getting any confirmations", "is_correct": false },
+      { "answer": "Ignore the longest valid branch rule when proposing a new block", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Bitcoin and Ethereum are two popular blockchain technologies. Select the correct statements.",
+    "options": [
+      { "answer": "Both use append-only ledger", "is_correct": true },
+      { "answer": "Both use SHA-256 for PoW", "is_correct": false },
+      { "answer": "Both use block of approximately the same size", "is_correct": false },
+      { "answer": "Both use virtual machine to run smart contracts", "is_correct": false },
+      { "answer": "Both are permissionless", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Which of the following are true about Bitcoin miners?",
+    "options": [
+      { "answer": "The target hash has become so small that the block header nonce alone isn’t generally large enough to allow miners to search enough of the hash output space to find a valid block", "is_correct": true },
+      { "answer": "Over a 2-week period, the average time to mine a block is always 10 minutes", "is_correct": false },
+      { "answer": "The mining difficulty is recomputed roughly every 2 weeks to keep the proof-of-work puzzle difficult", "is_correct": true },
+      { "answer": "Bitcoin miners can more efficiently mine for blocks by specifically targeting parts of the nonce search space that have more puzzle solutions", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In the smart-property scenario where Alice sells her car to Bob via an atomic transaction, which statement is true?",
+    "options": [
+      { "answer": "Alice and Bob must be physically near the car for the transfer of control to take effect", "is_correct": false },
+      { "answer": "Bob must make sure that Alice deletes her private key so that she does not retain the ability to activate the car", "is_correct": false },
+      { "answer": "Requires modifications to Bitcoin because there is no way for two different people who don’t trust each other to securely sign the same transaction", "is_correct": false },
+      { "answer": "The protocol doesn’t prove to Bob, before the sale, that the transaction output that Alice wants to sell him actually corresponds to the car he wants to buy", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Bitcoin micropayments require the use of:",
+    "options": [
+      { "answer": "Multisignature transactions", "is_correct": true },
+      { "answer": "Proof of burn", "is_correct": false },
+      { "answer": "Time-locked transactions", "is_correct": true },
+      { "answer": "Pay-to-script-hash", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Bitcoin’s script supports instructions whose effect is:",
+    "options": [
+      { "answer": "Conditional execution (if/then)", "is_correct": true },
+      { "answer": "Hashing", "is_correct": true },
+      { "answer": "Recursion", "is_correct": false },
+      { "answer": "Looping", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In ScroogeCoin, you have ten coins each worth 3.0 and want to transfer 5.0. What is required?",
+    "options": [
+      { "answer": "Two transactions, one new coin created, and two signatures", "is_correct": false },
+      { "answer": "Two transactions, two new coins created, and four signatures", "is_correct": false },
+      { "answer": "One transaction, two new coins created, and two signatures", "is_correct": true },
+      { "answer": "One transaction, one new coin created, and one signature", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which modifications of a block-chain data structure can be detected?",
+    "options": [
+      { "answer": "Re-ordering of blocks", "is_correct": true },
+      { "answer": "Deletion of a block", "is_correct": true },
+      { "answer": "Tampering of data in a block", "is_correct": true },
+      { "answer": "Insertion of a block", "is_correct": true }
+    ]
+  },
+  {
+    "question": "In a merge-mined alt-coin scenario:",
+    "options": [
+      { "answer": "The alt coin has the same hash target as Bitcoin at all times", "is_correct": false },
+      { "answer": "Alt-coin block headers include a hash pointer to a Bitcoin block", "is_correct": false },
+      { "answer": "Bitcoin block headers include the Merkle root of transactions for an alt-coin block", "is_correct": true },
+      { "answer": "Bitcoin blocks include transactions from the alt coin", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is true of SHA-256?",
+    "options": [
+      { "answer": "It has been proven not to have a collision", "is_correct": false },
+      { "answer": "We hope that there are no collisions", "is_correct": false },
+      { "answer": "It has been proven that there is no fast way to find collisions", "is_correct": false },
+      { "answer": "No collision has ever been found", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Which of these is true of virtual mining?",
+    "options": [
+      { "answer": "Several variations of virtual mining have been proposed", "is_correct": true },
+      { "answer": "Virtual mining has been successfully achieved in practice using the 'script' memory-hard hash function", "is_correct": false },
+      { "answer": "Virtual mining does away with most of the power requirements of proof-of-work systems", "is_correct": true },
+      { "answer": "A proof-of-stake system makes 51 % attacks impossible", "is_correct": false }
+    ]
+  },
+  {
+    "question": "If you generate many identities (public keys) and use them online, what might happen?",
+    "options": [
+      { "answer": "Others may be able to link your identities because public keys generated on the same computer look similar", "is_correct": false },
+      { "answer": "Others might be able to take over your identities even if your randomness is good", "is_correct": false },
+      { "answer": "Others may be able to de-anonymize you by analyzing your activity patterns", "is_correct": true },
+      { "answer": "Others may be able to generate some of your new future identities", "is_correct": false }
+    ]
+  },
+  {
+    "question": "In the K-out-of-N secret-sharing scheme presented, the size of each share will be",
+    "options": [
+      { "answer": "N × (size of the secret)", "is_correct": false },
+      { "answer": "K × (size of the secret)", "is_correct": false },
+      { "answer": "Equal to the size of the secret", "is_correct": true },
+      { "answer": "1⁄K × (size of the secret)", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Which of these keys are required for verifying a signature?",
+    "options": [
+      { "answer": "The public key", "is_correct": true },
+      { "answer": "Both the secret and the public key", "is_correct": false },
+      { "answer": "The secret key", "is_correct": false },
+      { "answer": "None. Keys are required only for signing; anyone can verify the signature without a key", "is_correct": false }
+    ]
+  },
+  {
+    "question": "Enter the last 4 hex characters of the block hash for Bitcoin block 222223:",
+    "options": [
+      { "answer": "ecf5", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Enter the first 4 characters of the first output address of the last transaction in block 222226:",
+    "options": [
+      { "answer": "1Fh6", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Enter the number of inputs in the last transaction in block 222226:",
+    "options": [
+      { "answer": "1", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Enter the first four digits of the nonce from Bitcoin block 222226:",
+    "options": [
+      { "answer": "3970", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Enter the number of transactions in Bitcoin block 222226:",
+    "options": [
+      { "answer": "806", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Enter the output value (BTC) for the first output of the last transaction in block 222226 (two decimals):",
+    "options": [
+      { "answer": "9.54", "is_correct": true }
+    ]
+  },
+  {
+    "question": "Enter the number of outputs in the last transaction in Bitcoin block 222223:",
+    "options": [
+      { "answer": "2", "is_correct": true }
+    ]
+  }
+]
+
