@@ -4,7 +4,6 @@ def main [
   let jsons = if ($jsons | is-empty) {
     [./questions/exam2022.json]
   } else { $jsons }
-  print $jsons
   let quiz = $jsons | each { open $in } | flatten
   mut total_questions = 0
   mut points_possible = 0
